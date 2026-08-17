@@ -150,15 +150,3 @@
 </div>
 
 <br/>
-
-<details>
-<summary><sub><b>⚙ one-time setup note (delete this block once done)</b></sub></summary>
-
-The stats/langs/streak cards above read from `./profile/*.svg` in this repo — generated locally by GitHub Actions instead of a shared live-render server, since the public `github-readme-stats` / `github-readme-streak-stats` demo instances have been intermittently paused (rate-limit/cost issues on the maintainers' side, not fixable from this end).
-
-1. Add `.github/workflows/update-cards.yml` (included alongside this README).
-2. In repo **Settings → Actions → General → Workflow permissions**, select **Read and write permissions**.
-3. Go to the **Actions** tab → run the workflow once manually. It'll commit `profile/stats.svg`, `profile/langs.svg`, and `profile/streak.svg`, and re-run daily after that.
-4. The trophy card points at the official `github-profile-trophy.vercel.app` service — the previous community mirror this pointed to (`github-profile-trophy-winning.vercel.app`) is dead (404).
-
-</details>
